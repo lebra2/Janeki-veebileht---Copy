@@ -1,6 +1,10 @@
 module.exports = {
   mode: 'jit',
-  content: ['./*/*.html', ],
+  content: [
+    './*/*.html', 
+    "./node_modules/flowbite/**/*.js"
+  
+  ],
   theme: {
     extend: {
       colors: {
@@ -12,6 +16,9 @@ module.exports = {
 
 
     },
+    plugins: [
+      require('flowbite/plugin')
+  ]
     
   },
   
