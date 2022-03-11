@@ -24,8 +24,9 @@
     position: relative;
     color: black;
 }
+
   
-  .hover-underline-animation:after {
+.hover-underline-animation:after {
     content: '';
     position: absolute;
     border: none;
@@ -40,14 +41,36 @@
     select:focus {
     box-shadow: none;
     outline: none;
-    }
+}
+
 }
   
-  .hover-underline-animation:hover:after {
+.hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
 
 @tailwind base;

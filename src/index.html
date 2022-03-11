@@ -13,11 +13,22 @@
 </head>
 <body class="bg-neutral-800">
     <div class="font-['Hubballi']">
-        <nav class="p-5 h-24 sticky top-0 z-50 md:z-1 shadow bg-white shadow md:flex md:items-center md:justify-between">
-            <h1 class="flex justify-center text-3xl font-bold">LEBRA</h1>
-            <div class="flex justify-between items-center">
-            </div>
-            <ul class="md:items-center md:flex z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <nav class=" p-5 h-24 sticky top-0 z-50 md:z-1 shadow bg-white shadow md:flex md:items-center md:justify-between">
+            <h1 class="flex justify-center text-3xl font-bold active">LEBRA</h1>
+            <div class="flex justify-center topnav md:hidden bg-neutral-900">
+                <div id="myLinks">
+                  <a href="music.html">Music</a>
+                  <a href="merch.html">Merch</a>
+                  <a href="about.html">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <div class="flex justify-center items-center text-black rounded scale-150">
+                        <i class="fa fa-bars"></i>
+                    </div>
+
+                </a>
+              </div>
+            <ul id="myLinks" class="md:items-center md:flex z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                 <li class="mx-4 my-6 md:my-0">
                     <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Home</a>
                 </li>
@@ -28,14 +39,25 @@
                     <a href="music.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Music</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="videos.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Videos</a>
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Videos</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="merch.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Merch</a>
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Merch</a>
                 </li>
                 
             </ul>
         </nav>
+        <div id="burger-menu" class="trans05 h-0 bg-white overflow-hidden flex flex-col mt-2 justify-around px-3 lg:hidden">
+            <div class="flex items-center w-full text-2xl text-black trans05 text-shdw-light" id="burger-content">
+                <a href="index.html" class="w-full">Music</a>
+            </div>
+            <div class="flex items-center w-full text-2xl text-black trans05 text-shdw-light" id="burger-content">
+                <a href="projects.html" class="w-full">Merch</a>
+            </div>
+            <div class="flex items-center w-full text-2xl text-black trans05 text-shdw-light" id="burger-content">
+                <a href="moreinfo.html" class="w-full">Videos</a>
+            </div>
+        </div>
 
         <nav>
             <div class="hidden sm:flex justify-center h-screen right-1 bottom-1 w-20 fixed mt-4 flex-col text-center ">
@@ -49,9 +71,12 @@
         </nav>
         <div class="flex justify-center">
             <div class="px-8 md:mt-20">
+                <div class="flex justify-center text-6xl text-white font-extrabold">
+                    <h1 class="hidden lg:block md:mb-12">Latest songs</h1>
+                </div>
                 <div class="flex justify-center items-center rounded lg:px-10 h-max">
                     <div class="flex text-center gap-2 text-4xl flex-col text-white text-shdw-light">
-                        <div class="relative grid md:grid-cols-2 xl:grid-cols-3 gap-12 py-12">
+                        <div class="relative grid md:grid-cols-2 xl:grid-cols-3 lg:gap-12">
                             <div class="w-[300px] lg:w-[400px]">
                                 <a class="" href="https://open.spotify.com/track/0KUGmYNiDsorsUuGYaQFpT?si=e956350254014ea0" target="_blank"><img class=" hidden md:flex md:hover:scale-105 md:trans02 rounded" src="../Pictures/ajad.jpg" alt=""></a>
                                 <div class="hidden md:block py-4">
@@ -77,32 +102,30 @@
                                 </div>
 
                             </div>
-                            <div class="sm:hidden">
+                            <div class="sm:hidden scale-75">
                                 <img class="rounded" src="../Pictures/IMG_0142.jpg" alt="">
                             </div>
                         </div>
 
 
-                        <div class="md:hidden w-full flex flex-col space-y-6 py-4 ">
-                            <div class="mx-12 bg-white text-left p-2 flex flex-row items-center gap-4 rounded">
-                                <a class="text-3xl text-spotify hover:text-spotify trans02" href=""><i class="fa-brands fa-spotify"></i></a>
-                                <h1 class="text-black font-semibold">Spotify</h1>
+                        <div class="md:hidden w-full flex flex-col space-y-6 py-4">
+                            <div class="mx-4 bg-white text-left p-2 flex flex-row items-center gap-4 rounded">
+                                <a class="text-3xl hover:text-spotify trans02 flex flex-row-reverse gap-4 text-black" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg" target="_blank">Spotify<i class="text-spotify fa-brands fa-spotify"></i></a>
                             </div>
-                            <div class="ml-12 mr-12 bg-white rounded p-2 flex gap-4">
-                                <a class="text-3xl text-soundcloud hover:text-soundcloud trans02" href=""><i class="fa-brands fa-soundcloud"></i></a>
-                                <h1 class="text-black font-semibold">Soundcloud</h1>
+                            <div class="mx-4 bg-white rounded p-2 flex gap-4">
+                                <a class="text-3xl hover:text-soundcloud trans02 flex flex-row-reverse gap-4 text-black" href="https://soundcloud.com/lebraofficial" target="_blank">Soundcloud<i class="text-soundcloud fa-brands fa-soundcloud"></i></a>
                             </div>
-                            <div class="ml-12 mr-12 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl text-youtube hover:text-youtube trans02" href=""><i class="fa-brands fa-youtube"></i></a>
-                                <h1 class="text-black font-semibold">Youtube</h1>
+                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
+                                <a class="text-3xl hover:text-youtube trans02 flex flex-row-reverse gap-4 text-black" href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w" target="_blank">Youtube<i class="text-youtube fa-brands fa-youtube"></i></a>
                             </div>
-                            <div class="ml-12 mr-12 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl text-ig hover:text-ig trans02" href=""><i class="fa-brands fa-itunes-note"></i></a>
-                                <h1 class="text-black font-semibold">iTunes</h1>
+                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
+                                <a class="text-3xl hover:text-ig trans02 flex flex-row-reverse gap-4 text-black" href="https://music.apple.com/us/artist/lebra/1593452957" target="_blank">Apple Music<i class="text-ig fa-brands fa-itunes-note"></i></a>
                             </div>
-                            <div class="ml-12 mr-12 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl text-pink-500 hover:text-pink-500 trans02" href=""><i class="fa-brands fa-instagram"></i></a>
-                                <h1 class="text-black font-semibold">Instagram</h1>
+                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
+                                <a class="text-3xl hover:text-pink-500 trans02 flex flex-row-reverse gap-4 text-black" href="https://www.instagram.com/_lebra_/" target="_blank">Instagram<i class="text-pink-500 fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
+                                <a class="text-3xl flex flex-row-reverse gap-4 text-black hover:text-pink-500 trans02" href="https://www.paypal.me/markustimofejev" target="_blank">Paypal<i class="text-sky-500 fa-brands fa-paypal"></i></a>
                             </div>
                         </div>   
                     </div>
@@ -135,10 +158,10 @@
                             <h4 class="text-xl pb-4">Useful links</h4>
                             <ul class="text-gray-500">
                                 <a href="index.html"><li class="pb-4 hover:text-blue-300 trans02">Home</li></a>
-                                <a href="teenused.html"><li class="pb-4 hover:text-blue-300 trans02">Music</li></a>
-                                <a href="hinnakiri.html"><li class="pb-4 hover:text-blue-300 trans02">About</li></a>
-                                <a href="galerii.html"><li class="pb-4 hover:text-blue-300 trans02">Videos</li></a>
-                                <a href="ettevottest.html"><li class="pb-4 hover:text-blue-300 trans02">Pictures</li></a>
+                                <a href="music.html"><li class="pb-4 hover:text-blue-300 trans02">Music</li></a>
+                                <a href="about.html"><li class="pb-4 hover:text-blue-300 trans02">About</li></a>
+                                <a href="videos.html"><li class="pb-4 hover:text-blue-300 trans02">Videos</li></a>
+                                <a href="pictures.html"><li class="pb-4 hover:text-blue-300 trans02">Pictures</li></a>
                             </ul>
                         </div>
                         <div class="mb-5">
@@ -153,5 +176,6 @@
             </div>
         </footer>
     </div>
+    <script src="burger.js"></script>
 </body>
 </html>
