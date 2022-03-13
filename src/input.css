@@ -25,6 +25,10 @@
     color: black;
 }
 
+.active {
+    color: #ff0000;
+ }
+
   
 .hover-underline-animation:after {
     content: '';
