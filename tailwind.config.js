@@ -2,7 +2,6 @@ module.exports = {
   mode: 'jit',
   content: [
     './*/*.html', 
-    "./node_modules/flowbite/**/*.js"
   
   ],
   theme: {
