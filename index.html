@@ -13,27 +13,26 @@
 </head>
 <body class="bg-neutral-800">
     <div class="font-['Hubballi']">
-        <nav class=" p-5 h-24 sticky top-0 z-50 md:z-1 shadow bg-white shadow md:flex md:items-center md:justify-between">
-            <h1 class="flex justify-center text-3xl font-bold active">LEBRA</h1>
-            <div class="flex justify-center topnav md:hidden bg-neutral-900">
+        <nav class=" h-24 sticky top-0 z-50 md:z-1 shadow bg-white shadow md:flex md:items-center md:justify-between">
+            <h1 class="flex justify-center text-3xl font-bold active pt-6 sm:pt-0 sm:ml-4">LEBRA</h1>
+            <div class="flex justify-center topnav  md:hidden bg-neutral-900 mt-9">
                 <div id="myLinks">
                   <a href="music.html">Music</a>
-                  <a href="https://www.beatstars.com/lebrabeats">Beats</a>
-                  <a href="about.html" target="_blank">About</a>
+                  <a class="" href="index.html"><p class="line-through">Portfolio</p></a>
+                  <a href="index.html" target="_blank">Home</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <div class="flex justify-center mt-4 items-center text-black rounded scale-150">
+                    <div class="mt-4 text-white  rounded-full h-6 w-6 flex justify-center items-center text-black rounded scale-150">
                         <i class="fa fa-bars"></i>
                     </div>
-
                 </a>
-              </div>
+            </div>
             <ul id="myLinks" class="md:items-center md:flex z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                 <li class="mx-4 my-6 md:my-0">
                     <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Home</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Portfolio</a>
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Portfolio</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
                     <a href="music.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Music</a>
@@ -49,7 +48,7 @@
         </nav>
 
         <nav>
-            <div class="hidden sm:flex justify-center h-screen right-1 bottom-1 w-20 fixed mt-4 flex-col text-center ">
+            <div class="hidden md:flex justify-center h-screen right-1 bottom-1 w-20 fixed mt-4 flex-col text-center ">
                 <a class="text-3xl text-white hover:scale-105 hover:text-spotify" target="_blank" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg"><i class="fa-brands fa-spotify"></i></a>
                 <a class="text-3xl text-white hover:scale-105 hover:text-soundcloud" target="_blank" href="https://soundcloud.com/lebraofficial"><i class="fa-brands fa-soundcloud"></i></a>
                 <a class="text-3xl text-white hover:scale-105 hover:text-youtube" target="_blank" href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w"><i class="fa-brands fa-youtube"></i></a>
@@ -61,11 +60,11 @@
         <div class="flex justify-center">
             <div class="px-8 md:mt-20">
                 <div class="flex justify-center text-6xl text-white font-extrabold">
-                    <h1 class="hidden lg:block md:mb-12">Latest songs</h1>
+                    <h1 class="text-6xl lg:text-4xl hidden md:block md:mb-12">Latest songs</h1>
                 </div>
                 <div class="flex justify-center items-center rounded lg:px-10 h-max">
                     <div class="flex text-center gap-2 text-4xl flex-col text-white text-shdw-light">
-                        <div class="relative grid md:grid-cols-2 xl:grid-cols-3 lg:gap-12">
+                        <div class="relative grid md:grid-cols-2 xl:grid-cols-3 lg:gap-12 md:gap-12">
                             <div class="w-[300px] lg:w-[400px]">
                                 <a class="" href="https://open.spotify.com/track/0KUGmYNiDsorsUuGYaQFpT?si=e956350254014ea0" target="_blank"><img class=" hidden md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/ajad.jpg" alt=""></a>
                                 <div class="hidden md:block py-4">
@@ -82,6 +81,7 @@
                                     <h2 class="mt-4 text-rose-500">"Šedööver"</h2>
                                 </div>
 
+                                    
                             </div>
                             <div class="w-[300px] lg:w-[400px]">
                                 <a class="" href="https://open.spotify.com/track/19LhxgfuBTGL6tHVwRKzjb?si=968de254a99b436f" target="_blank"><img class=" hidden md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/My project(5).png" alt=""></a>
@@ -89,44 +89,57 @@
                                     <h1 class="mt-4">Latest Single</h1>
                                     <h2 class="mt-4 text-rose-500">"Hetked"</h2>
                                 </div>
+                                
 
                             </div>
-                            <div class="sm:hidden scale-75">
-                                <img class="rounded" src="../Pictures/IMG_0142.jpg" alt="">
+                            <div class="">
+                                <div class="sm:hidden m-4">
+                                    <img class="rounded" src="../Pictures/IMG_0142.jpg" alt="">
+                                </div>
+
+
+                                <div class="mt-4 md:hidden">
+                                    <p class="text-3xl font-bold text-white">Artist</p>
+                                    <div class="justify-center gap-2 flex md:hidden">
+                                        <i class="scale-75 text-2xl text-gray-300 text-shdw-light fa-solid fa-location-dot"></i>
+                                        
+                                    </div>
+                                    <div class="text-sm text-gray-400">Estonia, Hiiumaa</div>
+                                    <p class="text-xl text-gray-200 ">I produce beats, and make music.</p>
+                                </div>
+                                <div class="mt-4 md:hidden">
+                                    <h1 class="font-bold text-4xl">Links</h1>
+                                </div>
+
+
                             </div>
+                            
+
                         </div>
 
 
                         <div class="md:hidden w-full flex flex-col space-y-6 py-4">
-                            <div class="mx-4 bg-white text-left p-2 flex flex-row items-center gap-4 rounded trans035">
-                                <a class="text-3xl hover:text-spotify trans02 flex flex-row-reverse gap-4 text-black" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg" target="_blank">Spotify<i class="text-spotify fa-brands fa-spotify"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25 p-2 flex rounded">
+                                <a class="flex-row-reverse justify-around text-2xl hover:text-spotify flex text-white gap-4" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg" target="_blank">Spotify<i class="text-spotify mt-1 fa-brands fa-spotify"></i></a>
                             </div>
-                            <div class="mx-4 bg-white rounded p-2 flex gap-4">
-                                <a class="text-3xl hover:text-soundcloud trans02 flex flex-row-reverse gap-4 text-black" href="https://soundcloud.com/lebraofficial" target="_blank">Soundcloud<i class="text-soundcloud fa-brands fa-soundcloud"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25 rounded p-2 flex">
+                                <a class="text-2xl hover:text-soundcloud trans02 flex flex-row-reverse gap-4 text-white" href="https://soundcloud.com/lebraofficial" target="_blank">Soundcloud<i class="text-soundcloud fa-brands fa-soundcloud mt-1"></i></a>
                             </div>
-                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl hover:text-youtube trans02 flex flex-row-reverse gap-4 text-black" href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w" target="_blank">Youtube<i class="text-youtube fa-brands fa-youtube"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25 rounded p-2 flex flex-row ">
+                                <a class="text-2xl hover:text-youtube trans02 flex flex-row-reverse gap-4 text-white" href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w" target="_blank">Youtube<i class="text-youtube fa-brands fa-youtube mt-1"></i></a>
                             </div>
-                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl hover:text-ig trans02 flex flex-row-reverse gap-4 text-black" href="https://music.apple.com/us/artist/lebra/1593452957" target="_blank">Apple Music<i class="text-ig fa-brands fa-itunes-note"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25 rounded p-2 flex flex-row">
+                                <a class="text-2xl hover:text-ig trans02 flex flex-row-reverse gap-4 text-white" href="https://music.apple.com/us/artist/lebra/1593452957" target="_blank">Apple Music<i class="text-ig fa-brands fa-itunes-note mt-1"></i></a>
                             </div>
-                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl hover:text-pink-500 trans02 flex flex-row-reverse gap-4 text-black" href="https://www.instagram.com/_lebra_/" target="_blank">Instagram<i class="text-pink-500 fa-brands fa-instagram"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25  rounded p-2 flex flex-row ">
+                                <a class="text-2xl hover:text-pink-500 trans02 flex flex-row-reverse gap-4 text-white" href="https://www.instagram.com/_lebra_/" target="_blank">Instagram<i class="text-pink-500 fa-brands fa-instagram mt-1"></i></a>
                             </div>
-                            <div class="mx-4 bg-white text-left rounded p-2 flex flex-row items-center gap-4">
-                                <a class="text-3xl flex flex-row-reverse gap-4 text-black hover:text-pink-500 trans02" href="https://www.paypal.me/markustimofejev" target="_blank">Paypal<i class="text-sky-500 fa-brands fa-paypal"></i></a>
+                            <div class="mx-4 bg-neutral-700 bg-opacity-25  rounded p-2 flex flex-row ">
+                                <a class="text-2xl flex flex-row-reverse gap-4 text-white hover:text-pink-500 trans02" href="https://www.paypal.me/markustimofejev" target="_blank">Paypal<i class="text-sky-500 fa-brands fa-paypal mt-1"></i></a>
                             </div>
                         </div>   
                     </div>
                 </div>
-                <div class="flex justify-center items-center md:mr-20 flex-col rounded h-max text-white"> 
-                </div>
-            </div>
-
-        </div>
-        <div class="bg-neutral-800">
-            <div class="flex justify-center p-12">
-                <iframe class="rounded" width="560" height="315" src="https://www.youtube.com/embed/TvKQetS3EwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
         </div>
@@ -165,7 +178,7 @@
             </div>
         </footer>
     </div>
+    <img class="p-0 fixed top-0 h-screen w-screen object-cover brightness-90 -z-10 saturate-50 trans05 fade-in lg:hidden" src="../Pictures/My project(12).png" alt="">
     <script src="burger.js"></script>
-    <script src="../path/to/flowbite/dist/flowbite.js"></script>
 </body>
 </html>

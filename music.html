@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f56cd5a1af.js" crossorigin="anonymous"></script>
+    <script src="burger.js"></script>
+</head>
+<body class="bg-neutral-800">
+    <div class="font-['Hubballi']">
+        <nav class=" h-24 sticky top-0 z-50 md:z-1 shadow bg-white shadow md:flex md:items-center md:justify-between">
+            <h1 class="flex justify-center text-3xl font-bold active pt-6 sm:pt-0 sm:ml-4">LEBRA</h1>
+            <div class="flex justify-center topnav  md:hidden bg-neutral-900 mt-9">
+                <div id="myLinks">
+                  <a href="music.html">Music</a>
+                  <a class="" href="index.html"><p class="line-through">Portfolio</p></a>
+                  <a href="index.html" target="_blank">Home</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <div class="mt-4 text-white  rounded-full h-6 w-6 flex justify-center items-center text-black rounded scale-150">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </a>
+            </div>
+            <ul id="myLinks" class="md:items-center md:flex z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Home</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Portfolio</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="music.html" class="text-xl hover-underline-animation hover:text-red-600 trans02">Music</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Videos</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="index.html" class="text-xl hover-underline-animation hover:text-red-600 trans02 line-through">Merch</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <nav>
+            <div class="hidden md:flex justify-center h-screen right-1 bottom-1 w-20 fixed mt-4 flex-col text-center ">
+                <a class="text-3xl text-white hover:scale-105 hover:text-spotify" target="_blank" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg"><i class="fa-brands fa-spotify"></i></a>
+                <a class="text-3xl text-white hover:scale-105 hover:text-soundcloud" target="_blank" href="https://soundcloud.com/lebraofficial"><i class="fa-brands fa-soundcloud"></i></a>
+                <a class="text-3xl text-white hover:scale-105 hover:text-youtube" target="_blank" href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w"><i class="fa-brands fa-youtube"></i></a>
+                <a class="text-3xl text-white hover:scale-105 hover:text-ig" target="_blank" href="https://music.apple.com/us/artist/lebra/1593452957"><i class="fa-brands fa-itunes-note"></i></a>
+                <a class="text-3xl text-white hover:scale-105 hover:text-pink-500" target="_blank" href="https://www.instagram.com/_lebra_/"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </nav>
+        <div class="flex justify-center">
+            <div class="px-8 md:mt-20">
+                <div class="flex justify-center text-6xl text-white font-extrabold  mt-4 md:mt-0">
+                    <h1 class="text-4xl flex justify-center">Latest songs</h1>
+                </div>
+                <div class="flex justify-center items-center rounded lg:px-10 h-max">
+                    <div class="flex text-center gap-2 text-4xl flex-col text-white text-shdw-light">
+                        <div class="relative grid md:grid-cols-2 xl:grid-cols-3 gap-24 py-12 ">
+                            <div class="w-[300px] lg:w-[400px] ">
+                                <a class="" href="https://open.spotify.com/track/0KUGmYNiDsorsUuGYaQFpT?si=e956350254014ea0" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/ajad.jpg" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Ajad me ees"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll  leading-relaxed"><h1 class="md:hidden mt-4">Ajad me ees</h1><p class="whitespace-pre-line p-12 leading-normal p-12 text-justify text-xl">
+                                        Nädal aega sinuta
+                                        #mulonsiiber
+                                        hädavaevu elan veel,
+                                        mõttes terve piibel
+                                        kõhklen, piinlen ja
+                                        aeg see lihtsalt venib
+                                        elu olla tiinekas on depressiooni eri
+                                        kiindunud su iseloomu
+                                        olen veidi imelik
+                                        mu päeva annad hoogu pidev koormus
+                                        on nüüd minevik
+                                        sa teed imesid ja neid sul jätkub
+                                        küllalt veel
+                                        küllap sa ka tead et oled
+                                        sügaval mu südames
+                                        17 ja armastus
+                                        kõlab koomiliselt
+                                        poleks eales arvanud, et kõik on roosiline
+                                        vahel vajan vabadust kuid see on loogiline
+                                        sa ei tüüta mind ja oled truu ning see on põhiline
+                                        lõppu pole vaja mõelda loole mis me vahel
+                                        piisab sissejuhatusest, sest ma eales pole
+                                        kahelnud meis
+                                        ja ka sama pole teind sa
+                                        sest oma tundeid sa ei peida
+                                        
+                                        sest et sinuga mul on nii hea
+                                        teed päevad nii heaks
+                                        sekundi pealt
+                                        kuid sa ei tea
+                                        olen kindel ja ma tean et mul veab
+                                        teed päevad nii heaks
+                                        sekundi pealt
+                                        kuid sa ei tea
+                                        
+                                        vajan hoolivust ja soojust
+                                        sest sa ajad isu ligi leebelt
+                                        nagu iga inimene
+                                        vajan neid kui privileege
+                                        kestab tund või kestab päev
+                                        mu mõttes silmad mis on sinised
+                                        ja valu tunnen ribides
+                                        meie kooslus annab sädet
+                                        leekiv armastus me vahel
+                                        kindel noot ja jääd pähe sa
+                                        eriti kui lähed sa
+                                        igatsus on väledam
+                                        elu on nii keeruline,
+                                        pidanuks vist nägema</p></div>
+
+
+                                </div>
+                                </label>
+                                
+                            </div>
+                            <div class="w-[300px] lg:w-[400px]">
+                                <a class="" href="https://open.spotify.com/track/0NogQwG9HA6qcxzVWg2oO5?si=7bb4c0ae956544e7" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/sedööver.png" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Šedööver"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll"><h1 class="md:hidden mt-4">Hetked</h1><p class="whitespace-pre-line p-12 leading-normal text-left text-xl">
+                                        Anna käsi,
+                                        Näitan teed, 
+                                        sulle.
+                                        Tuleviku poole,
+                                        Jäta mured seljataha,
+                                        Võtan need ma oma hoolde
+                                        Olen ODs,
+                                        Kallis sa oled röövel,
+                                        Röövisid mu südame
+                                        See ongi su šedööver 
+                                        2x
+                                        
+                                        Enne sind ma olin kindel, et ei leia kedagi
+                                        Kes mu õnnelikuks teeks ja elutee viiks edasi,
+                                        Aga enam vist, vahet sellel polegi,
+                                        Sest sa tulid kuskilt äkitselt ja minu ära võlusid
+                                        
+                                        Me rada samme juba täis, kuid reame uusi teid, veel,
+                                        Mälestusi häid, meil puudub kellaseier,
+                                        Või nii mulle näib?
+                                        Oleks nagu eile alles, näind
+                                        
+                                        Näen meid, omas kodus, omas hoovis, oma lastega,
+                                        Sohval koma voodis veedan vanadust ma sinuga.
+                                        Pakun armastust ma kõigile, sest minul puudu jäi.
+                                        Tahan olla sulle parim, kuniks surm üle käib.
+                                        
+                                        Anna käsi,
+                                        Näitan teed, 
+                                        sulle.
+                                        Tuleviku poole,
+                                        Jäta mured seljataha,
+                                        Võtan need ma oma hoolde
+                                        Olen ODs,
+                                        Kallis sa oled röövel,
+                                        Röövisid mu südame
+                                        See ongi su šedööver 
+                                        2x
+                                        
+                                        Ma armastan su naeratust ja kõiki meie hetki,
+                                        Südamest ma loodan et ei keera kõike pekki
+                                        Tüüpiline mina, mõtlen üle ja siis ongi siva
+                                        Lagunenud kõik mis ehitanud, järel oma enda viha
+                                        
+                                        Sa oled väga kalliks saanud
+                                        Annan maksimumi, tänks et minu ellu tulid!
+                                        Tapsid tüdi sa,
+                                        Mis tihti peale tükkis ja
+                                        Ülimalt ma tänulik et nüüd siis sa..
+                                        
+                                        Andsid käe,
+                                        Andsin tee,
+                                        Tuleviku hoolde,
+                                        Mured seljataga,
+                                        Lähme paremuse poole,
+                                        Ikka ODs
+                                        Kallis sa oled röövel
+                                        Röövisid mu südame
+                                        See ongi su šedööver
+                                        2x
+                                        
+                                        Anna käsi,
+                                        Näitan teed, 
+                                        sulle.
+                                        Tuleviku poole,
+                                        Jäta mured seljataha,
+                                        Võtan need ma oma hoolde
+                                        Olen ODs,
+                                        Kallis sa oled röövel,
+                                        Röövisid mu südame
+                                        See ongi su šedööver 
+                                        2x</p></div>
+
+
+                                </div>
+                                </label>
+
+                            </div>
+                            <div class="w-[300px] lg:w-[400px]">
+                                <a class="" href="https://open.spotify.com/track/19LhxgfuBTGL6tHVwRKzjb?si=968de254a99b436f" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/My project(5).png" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Latest Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Hetked"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll"><h1 class="mt-4 md:hidden">Hetked</h1><p class="whitespace-pre-line p-12 leading-normal text-left text-xl">
+                                        tunda armastatuna end on nii meeldiv tunne
+                                        sinu pea mu kätevahel, vahel tõesti tundub ulme
+                                        ja need hetked sinu kõrval, hoiavadki mind siin ülal
+                                        null muret minu õlal tea need pole lihtsalt sõnad,
+                                        näengi tulevikus meid, kuid pole usku selles kunagi olnd
+                                        seekord mu poolt maksimum ja loodan et sen õige rong
+                                        kurvad noodid kuid mu nägu naerul,
+                                        ma võtan paadi sa võid võtta aerud,
+                                        yeah..
+                                        
+                                        naeru täis suu, kui sa oled siin, 
+                                        raevu ja *muud* ei olegi nii ja
+                                        muredest prii ma
+                                        sellest mul piisab,
+                                        sa muudad mu noodid, minoorid mazoorid, kui toonikust puudu jääb, tean et sa hoolid, 
+                                        pohhui need droogi ning, ravimid, 
+                                        ongi vist pravilna, 
+                                        kui neid ei tarvita. 
+                                        armastus oleks kui müstika, 
+                                        sekundit vaja ja oledki üksinda, 
+                                        valu ei kao ja halvaga süstida on 
+                                        plaan b, god deem, 
+                                        maailm on ebareaalne
+                                        see maailm on ebareaalne
+                                        a mida sa teha veel saad, eks? 
+                                        
+                                        mott on maas, kui sa ei ole siin, 
+                                        pointi ei näe ja südames piin
+                                        tahan karjuda 
+                                        üle maailma
+                                        et armastan sind ja me vahel on maagia
+                                        see tunne nii mõnus
+                                        ei seleta
+                                        tunnen liblikaid kõhus
+                                        sa pidevalt, pimestad, õhus on üleval sädet
+                                        ja see kõik nii vägev veel, 
+                                        armastus oleks kui müstika, 
+                                        sekundit vaja ja oledki üksinda, 
+                                        valu ei kao ja halvaga süstida on 
+                                        plaan b, god deem, 
+                                        maailm on ebareaalne
+                                        see maailm on ebareaalne
+                                        a mida sa teha veel saad, eks?</p></div>
+
+
+                                </div>
+                                </label>
+                            </div>
+                            <div class="w-[300px] lg:w-[400px]">
+                                <a class="" href="https://open.spotify.com/track/2h5TGk30BC2gp9ZCLFGhGF?si=9cc7536523764786" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/lahti.jpg" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Lahti Lasta"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll"><h1 class="mt-4 md:hidden">Lahti Lasta</h1><p class="whitespace-pre-line p-12 leading-normal text-left text-xl">
+                                        lahti suutsin lasta
+                                        ehki lähvad lendu veel me teed
+                                        ja suudan embuses sind hoida kuigi
+                                        praegu k6ik on nahkas
+                                        vajunud kui rappa
+                                        seiskunud mu m6ttetee ja mured k6ige sappa
+                                        ennast ära tahan (tappa)
+                                        sahtlip6hjast maltsa
+                                        suitsetangi g ja ajan k6igile ma paska
+                                        kere kohe vapram
+                                        veresooned haprad
+                                        lege kui saaks niivisii neid emotsioone matta
+                                        sest tere ma ei jaksa
+                                        
+                                        und ei saa ma ammu enam
+                                        sa kui p2iksekiir voi lemmikkaader
+                                        koju minnes sammu segad
+                                        pea on just kui bambus pesa
+                                        seal sa üsna ammu elad
+                                        teisi 6elda voingi m6elda sinust kui ma
+                                        ise ka ei tea seda
+                                        ja pole tundnud nii vist eales ma, 
+                                        reaalselt ka, kurbus hoiab kinni
+                                        olla p2evi ilma teateta, 
+                                        loodan kuulda sinust peatselt ma
+                                        ning ootan kuu ka kui sa veel ei teadnud seda
+                                        
+                                        ei tunne ennast ammu 2ragi
+                                        nagu t2nagi, tundub lihtsalt h2man siin,
+                                        suuren osa ajast luuletan ja otsin viisi mis mu m6tteid 2ra viiks
+                                        ja mujale neid ajaks, yeah.
+                                        muud ma vist ei vaja, kui vaid sind ja sinu naeratust ykskoik
+                                        mis kellaajal, k6rvus siiani see kajab
+                                        miks mu tuju nullist sajani sa rajad?
+                                        mu tuju nullist sajani sa rajad..
+                                        
+                                        lahti suutsin lasta
+                                        ehki lähvad lendu veel me teed
+                                        ja suudan embuses sind hoida kuigi
+                                        praegu k6ik on nahkas
+                                        vajunud kui rappa
+                                        seiskunud mu m6ttetee ja mured k6ige sappa
+                                        ennast ära tahan (tappa)
+                                        sahtlip6hjast maltsa
+                                        suitsetangi g ja ajan k6igile ma paska
+                                        kere kohe vapram
+                                        veresooned haprad
+                                        lege kui saaks niivisii neid emotsioone matta
+                                        sest tere ma ei jaksa
+                                        
+                                        must ei saagi eales asja, miks ma yldse lampi ukerdan?
+                                        mu mott on maas koos pilguga, neid pisarad ma kyhveldan
+                                        sest syda teab, et sinuga, ma k2itun nagu superstaar
+                                        naeratan ja puterdan
+                                        tunnen end kui ulmemaal
+                                        
+                                        mu sydamesse sättisid end
+                                        näe nyyd tunnen r66mu ma
+                                        peagi k6ik on h2sti vist, 
+                                        need paevad voiksid mooduda
+                                        siin seintevahel tiksuda
+                                        maailma saadaks vi*** ma
+                                        m6tted sinu peale, iga 6htu lihtsalt kipuvad</p></div>
+
+
+                                </div>
+                                </label>
+
+                            </div>
+                            <div class="w-[300px] lg:w-[400px]">
+                                <a class="" href="https://open.spotify.com/track/2JtdWmOz9b5kqMPMamkVRJ?si=b8ec72e04d604032" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/kuisindnaen.jpg" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Kui Sind Näen"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll"><h1 class="mt-4 md:hidden">Kui Sind Näen</h1><p class="whitespace-pre-line p-12 leading-normal text-left text-xl">
+                                        Mu tunded pühendatud sulle, tea ma pühendanud tundet sind tundma õppida,
+                                        Ja üleüldse kõik su juures paneks iga teise kunde sinust öösel mõtlema.
+                                        
+                                        Tahe õelda sadat asja, kuid mu suu lihtsalt vaikib
+                                        Mõtetes mul sõnad, kahjuks praktika on sassis
+                                        Tea, et armastan sind üle kogu maailma - ja
+                                        Su lummavatest kiirtest, pean end kraadima
+                                        
+                                        Meil pole olnud kiire, kõik on sujuv, see on maagia
+                                        Vahel tunnen igatsust nii suurelt, et end laadima pean - ja
+                                        Kõiki emotsioone paberil võin maalida, tea
+                                        Su atraktiivset naeratust ma plaanind raamida -
+                                        
+                                        Sa inspireerid, motiveerid igat minu päeva,
+                                        Kus need privileegid sebisid, sest tegemist on väega
+                                        Kui tunnen, et ma ei suuda ja et seekord löön ma käega
+                                        Tean, et sind ma näen ja, -(tean et sind ma näen..)
+                                        
+                                        Tahan sosistada sulle head ööd ja jääda unne,
+                                        Ärgates sind silmaäärest näha nii absurdne, veel
+                                        Sind teki sisse mässida, ja lausuda sulle
+                                        "Kallis, ma pole eales tundnud armastust nii suurelt"
+                                        
+                                        Mu tunded pühendatud sulle, tea ma pühendanud tundet sind tundma õppida,
+                                        Ja üleüldse kõik su juures paneks iga teise kunde sinust öösel mõtlema.
+                                        
+                                        Kõik need hallid toonid pühid eest kui suvi minu sügise,
+                                        Tõid tähed laivi tüübi seest, kes eelnevalt nii tühine
+                                        Tood naeratuse esile, kui nukker meel sees pesitseb
+                                        Ma ei suuda ilma sinuta, kordan oma peegli ees
+                                        
+                                        heastada tahan kõike, kui ma teinud valesti
+                                        pead raban, ärevus sees miks sa ei ole siin
+                                        mott maas, nägemus kadunud juba pooleldi
+                                        ülemõtlik ajutegevus, ületab jooned nii
+                                        
+                                        Oma arvamused jätta võid sa endale
+                                        meie saladused käppa löövad emmates
+                                        perf duo meie vahel, lähme lendame
+                                        Inglil antud tiivad, pane selga need
+                                        
+                                        Mu tunded pühendatud sulle, tea ma pühendanud tundet sind tundma õppida,
+                                        Ja üleüldse kõik su juures paneks iga teise kunde sinust öösel mõtlema
+                                        </p></div>
+
+
+                                </div>
+                                </label>
+                                
+
+                            </div>
+                            <div class="w-[300px] lg:w-[400px]">
+                                <a class="" href="https://open.spotify.com/track/3ZTI4HrGvQIQ8DlSE1NI2s?si=125bcccaccf745b3" target="_blank"><img class="md:flex md:hover:scale-105 trans035 rounded" src="../Pictures/3000x3000-3428090--A53C579C-BBC4-44F4-A35957C1073BB94C--mod-1638805388.jpg" alt=""></a>
+                                <div class="hidden md:block py-4">
+                                    <h1 class="mt-4">Single</h1>
+                                    <h2 class="mt-4 text-rose-500">"Ilma Sinuta"</h2>
+                                </div>
+                                <div class="overflow-hidden sm:block">
+                                    <label>
+                                    <input class="absolute opacity-0 peer" type="checkbox">
+                                    <p class="hover:text-rose-500 text-center p-5 w-11/12 cursor-pointer inline-block">Lyrics</p>
+                                    <div class="inline-block cursor-pointer mt-6 hover:text-rose-500 ">
+                                    </div>
+
+                                    <div class="bg-neutral-800 bg-opacity-25 max-h-0 peer-checked:max-h-96 overflow-y-scroll"><h1 class="mt-4 md:hidden">Ilma Sinuta</h1><p class="whitespace-pre-line p-12 leading-normal text-left text-xl">
+                                        Vahel unistan, et sind siiski huvitaks
+                                        need sõnad mis sul kõrva sosistasin ja et kummitaks veel- ja
+                                        deem ma tean et maha ka suutsin ma matta  kõik nõmedad vead
+                                         ja paraku, kaotsi läind armastus nüüdseks mul endal siis kumiseb peas, beib
+                                        sasida pead sul tahan kuid tean sul kama ja vastus on ei mis enam siis raban, mul endalgi jamad, ja rabangi kuniks  meil kõik on okei, 
+                                        kuid praegu on seis, sel reisil, kui sein mis takistab meid,
+                                        need killud mu põrandal, sõnad ma pillun ja soovin et võtaksid kuulda sa neid, ey. 
+                                        
+                                        Anna veel üks võimalus, ma luban seekord muudan end
+                                        kallan teed ma kruusi, muusika veel ainsana mind
+                                        hoiab teel, 
+                                        see nukker meel ja pleekjas taevas on mu ees, 
+                                        näen sind seal, ja mõtlen mis ma ilma sinuta teeks
+                                        
+                                        Ilma sinuta teeks vist mitte midagi
+                                        iga päev on harjumuses sees, et oled sina siin
+                                        meeldid mulle tiba siit
+                                        tiba sealt
+                                        sa vist juba tead üleüldse oli koos meil hea
+                                        anda patud võiksid andeks, tühistada kõik need vead,
+                                        kontrollimatuses suutsin perse keerata ma elustiili
+                                        mis sai kalliks
+                                        nüüdseks toonid mis mu ees ei ole värvirikkad
+                                        vaid on hallid
+                                        
+                                        Anna veel üks võimalus, ma luban seekord muudan end
+                                        kallan teed ma kruusi, muusika veel ainsana mind
+                                        hoiab teel, 
+                                        see nukker meel ja pleekjas taevas on mu ees, 
+                                        näen sind seal, ja mõtlen mis ma ilma sinuta teeks
+                                        </p></div>
+
+
+                                </div>
+                                </label>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer id="footer">
+            <div class="p-10 bg-neutral-900 text-gray-200">
+                <div class="max-w-7xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                        <div class="mb-5">
+                            <h4 class="text-2xl pb-4">LEBRA</h4>
+                            <p class="text-gray-500">
+                                Estonia, Hiiumaa <br>
+                                <strong>gmail:</strong> lebrabusiness@gmail.com <br>
+                            </p>
+                           
+                        </div>
+    
+                        <div class="mb-5">
+                            <h4 class="text-xl pb-4">Useful links</h4>
+                            <ul class="text-gray-500">
+                                <a href="index.html"><li class="pb-4 hover:text-blue-300 trans02">Home</li></a>
+                                <a href="music.html"><li class="pb-4 hover:text-blue-300 trans02">Music</li></a>
+                                <a href="about.html"><li class="pb-4 hover:text-blue-300 trans02">About</li></a>
+                                <a href="videos.html"><li class="pb-4 hover:text-blue-300 trans02">Videos</li></a>
+                                <a href="pictures.html"><li class="pb-4 hover:text-blue-300 trans02">Pictures</li></a>
+                            </ul>
+                        </div>
+                        <div class="mb-5">
+                            <h4 class="text-xl pb-4">Merch</h4>
+                        </div>
+                        
+                        <div class="mb-5">
+                            <h4 class="text-xl pb-4">Beats</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <img class="p-0 fixed top-0 h-screen w-screen object-cover brightness-90 -z-10 saturate-50 trans05 fade-in lg:hidden" src="../Pictures/My project(12).png" alt="">
+</body>
+</html>
