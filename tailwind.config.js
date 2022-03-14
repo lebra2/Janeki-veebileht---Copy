@@ -20,8 +20,11 @@ module.exports = {
 
 
     },
-    plugins: [require('@tailwindcss/aspect-ratio')],
-    
+    plugins: {
+      'postcss-import': {},
+      tailwindcss: {},
+      autoprefixer: {},
+    }
   },
   
   
