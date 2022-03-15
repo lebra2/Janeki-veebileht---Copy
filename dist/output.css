@@ -641,25 +641,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-<<<<<<< HEAD
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
-=======
-.mt-9 {
-  margin-top: 2.25rem;
->>>>>>> origin/master
 }
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .block {
@@ -696,6 +691,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: max-content;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[300px\] {
   height: 300px;
 }
@@ -706,6 +709,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-full {
   height: 100%;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .max-h-0 {
@@ -728,9 +735,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100vw;
 }
 
-<<<<<<< HEAD
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-fit {
@@ -745,14 +755,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[384px\] {
   width: 384px;
-=======
-.w-96 {
-  width: 24rem;
->>>>>>> origin/master
 }
 
-.w-11\/12 {
-  width: 91.666667%;
+.w-96 {
+  width: 24rem;
 }
 
 .max-w-7xl {
@@ -762,6 +768,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .scale-75 {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-150 {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -813,9 +825,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
-<<<<<<< HEAD
 .gap-24 {
   gap: 6rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-5 {
@@ -824,14 +839,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-6 {
   gap: 1.5rem;
-=======
-.gap-12 {
-  gap: 3rem;
->>>>>>> origin/master
-}
-
-.gap-24 {
-  gap: 6rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -858,6 +865,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-lg {
@@ -913,17 +924,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0px;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-12 {
   padding: 3rem;
 }
 
-<<<<<<< HEAD
 .p-6 {
   padding: 1.5rem;
-=======
-.p-5 {
-  padding: 1.25rem;
->>>>>>> origin/master
 }
 
 .py-4 {
