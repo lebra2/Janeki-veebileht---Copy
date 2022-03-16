@@ -59,38 +59,7 @@
   transition: all .5s ease;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-.navlink {
-  list-style: none;
-  margin: 0;
-}
-
 @media screen and (max-width: 678px) {
-  .nav {
-    margin: 0;
-    position: absolute;
-    left: -100%;
-    top: 80px;
-    padding: 4rem;
-    width: 100%;
-    height: 75%;
-    flex-direction: column;
-    justify-content: space-around;
-    transition: all 200ms;
-  }
-
-  .navlink {
-    text-align: center;
-  }
-
-  .nav-active {
-    left: 0;
-  }
 }
 
 /* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
@@ -649,6 +618,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -663,14 +636,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-\[200px\] {
-  margin-top: 200px;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
 }
 
 .inline-block {
@@ -715,8 +680,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-24 {
-  height: 6rem;
+.h-0 {
+  height: 0px;
 }
 
 .max-h-0 {
@@ -759,10 +724,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-7xl {
   max-width: 80rem;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .scale-75 {
@@ -902,8 +863,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.5rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-12 {
+  padding: 3rem;
 }
 
 .p-0 {
@@ -914,12 +875,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.25rem;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .py-4 {
@@ -940,11 +901,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pt-6 {
@@ -1258,14 +1214,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: static;
   }
 
-  .md\:fixed {
-    position: fixed;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0px;
-  }
-
   .md\:z-auto {
     z-index: auto;
   }
@@ -1307,10 +1255,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 6rem;
   }
 
-  .md\:h-screen {
-    height: 100vh;
-  }
-
   .md\:w-auto {
     width: auto;
   }
@@ -1339,12 +1283,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 3rem;
   }
 
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:p-12 {
     padding: 3rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:py-0 {
@@ -1382,10 +1326,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:fixed {
-    position: fixed;
-  }
-
   .lg\:mt-24 {
     margin-top: 6rem;
   }
